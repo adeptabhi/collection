@@ -1,3 +1,654 @@
 {
-    "paper": []
+    "paper": [
+        {
+            "id": 1,
+            "topicId": 1,
+            "topic": "C Basics",
+            "question": "Who is the father of C language?",
+            "options": [
+                "Bjarne Stroustrup",
+                "James Gosling",
+                "Dennis Ritchie",
+                "Guido van Rossum"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 2,
+            "topicId": 1,
+            "topic": "C Basics",
+            "question": "Which symbol is used to end a statement in C?",
+            "options": [
+                ".",
+                ";",
+                ":",
+                ","
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "topicId": 1,
+            "topic": "C Basics",
+            "question": "Which of these is not a valid C variable name?",
+            "options": [
+                "total",
+                "1value",
+                "sum",
+                "_count"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "topicId": 1,
+            "topic": "C Basics",
+            "question": "What is the default return type of functions in C if not specified?",
+            "options": [
+                "int",
+                "void",
+                "float",
+                "char"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 5,
+            "topicId": 1,
+            "topic": "C Basics",
+            "question": "Which function is used to print output in C?",
+            "options": [
+                "print()",
+                "printf()",
+                "cout",
+                "disp()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "topicId": 2,
+            "topic": "Data Types",
+            "question": "What is the size of int in C (on 32-bit system)?",
+            "options": [
+                "2 bytes",
+                "4 bytes",
+                "8 bytes",
+                "Depends on compiler"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "topicId": 2,
+            "topic": "Data Types",
+            "question": "Which of these is a correct format specifier for float in C?",
+            "options": [
+                "%d",
+                "%f",
+                "%lf",
+                "%c"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "topicId": 2,
+            "topic": "Data Types",
+            "question": "Which data type is used to store a single character?",
+            "options": [
+                "int",
+                "char",
+                "string",
+                "float"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "topicId": 2,
+            "topic": "Data Types",
+            "question": "Which format specifier is used to print an integer?",
+            "options": [
+                "%c",
+                "%f",
+                "%s",
+                "%d"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 10,
+            "topicId": 2,
+            "topic": "Data Types",
+            "question": "Which data type can store decimal values?",
+            "options": [
+                "int",
+                "char",
+                "float",
+                "string"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 11,
+            "topicId": 3,
+            "topic": "Operators",
+            "question": "Which operator is used for modulus in C?",
+            "options": [
+                "%",
+                "/",
+                "//",
+                "mod"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 12,
+            "topicId": 3,
+            "topic": "Operators",
+            "question": "Which operator is used to access the value at an address?",
+            "options": [
+                "&",
+                "*",
+                "->",
+                "."
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "topicId": 3,
+            "topic": "Operators",
+            "question": "Which operator is used for pointer-to-member access?",
+            "options": [
+                "*",
+                "&",
+                "->",
+                "."
+            ],
+            "answer": 2
+        },
+        {
+            "id": 14,
+            "topicId": 3,
+            "topic": "Operators",
+            "question": "Which operator has the highest precedence in C?",
+            "options": [
+                "++",
+                "*",
+                "()",
+                "&&"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 15,
+            "topicId": 3,
+            "topic": "Operators",
+            "question": "Which operator is used for bitwise AND?",
+            "options": [
+                "&&",
+                "&",
+                "|",
+                "and"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "topicId": 4,
+            "topic": "Control Statements",
+            "question": "Which loop executes at least once even if the condition is false?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "foreach"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 17,
+            "topicId": 4,
+            "topic": "Control Statements",
+            "question": "Which keyword is used to exit a loop?",
+            "options": [
+                "stop",
+                "break",
+                "exit",
+                "quit"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "topicId": 4,
+            "topic": "Control Statements",
+            "question": "Which statement is used for multiple selection?",
+            "options": [
+                "if",
+                "switch",
+                "for",
+                "goto"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "topicId": 4,
+            "topic": "Control Statements",
+            "question": "Which keyword is used to skip the current iteration in loops?",
+            "options": [
+                "skip",
+                "continue",
+                "next",
+                "break"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "topicId": 4,
+            "topic": "Control Statements",
+            "question": "Which control statement is considered harmful and rarely used?",
+            "options": [
+                "if",
+                "switch",
+                "goto",
+                "break"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 21,
+            "topicId": 5,
+            "topic": "Functions",
+            "question": "Which keyword is used to define a function in C?",
+            "options": [
+                "func",
+                "function",
+                "def",
+                "No keyword needed"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 22,
+            "topicId": 5,
+            "topic": "Functions",
+            "question": "Which function is the entry point of a C program?",
+            "options": [
+                "start()",
+                "init()",
+                "main()",
+                "program()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 23,
+            "topicId": 5,
+            "topic": "Functions",
+            "question": "What is recursion in C?",
+            "options": [
+                "Function calling itself",
+                "Function calling another function",
+                "Infinite loop",
+                "None"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 24,
+            "topicId": 5,
+            "topic": "Functions",
+            "question": "Which keyword is used to return a value from a function?",
+            "options": [
+                "break",
+                "exit",
+                "return",
+                "end"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 25,
+            "topicId": 5,
+            "topic": "Functions",
+            "question": "Which type of functions do not return a value?",
+            "options": [
+                "void",
+                "int",
+                "char",
+                "float"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 26,
+            "topicId": 6,
+            "topic": "Arrays",
+            "question": "What is the index of the first element of an array in C?",
+            "options": [
+                "1",
+                "0",
+                "-1",
+                "Depends"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "topicId": 6,
+            "topic": "Arrays",
+            "question": "Which of these is correct syntax for declaring an array?",
+            "options": [
+                "int arr[];",
+                "int arr;",
+                "arr int[];",
+                "array int;"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 28,
+            "topicId": 6,
+            "topic": "Arrays",
+            "question": "Which function is used to find the length of a string stored in an array?",
+            "options": [
+                "strlen()",
+                "length()",
+                "size()",
+                "count()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 29,
+            "topicId": 6,
+            "topic": "Arrays",
+            "question": "Which of these is not a valid array declaration?",
+            "options": [
+                "int arr[5];",
+                "float arr[10];",
+                "char arr[20];",
+                "int arr[0];"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 30,
+            "topicId": 6,
+            "topic": "Arrays",
+            "question": "What will happen if you access an out-of-bound index in C array?",
+            "options": [
+                "Error at compile time",
+                "Garbage value or crash",
+                "Returns 0",
+                "Exception"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "topicId": 7,
+            "topic": "Pointers",
+            "question": "Which symbol is used to get the address of a variable?",
+            "options": [
+                "*",
+                "&",
+                "#",
+                "%"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "topicId": 7,
+            "topic": "Pointers",
+            "question": "Which of these is a NULL pointer?",
+            "options": [
+                "0",
+                "1",
+                "-1",
+                "2"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 33,
+            "topicId": 7,
+            "topic": "Pointers",
+            "question": "Which pointer is used to access the calling function’s variables?",
+            "options": [
+                "this",
+                "self",
+                "no such pointer",
+                "parent"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "topicId": 7,
+            "topic": "Pointers",
+            "question": "Which operator is used to access value using a pointer?",
+            "options": [
+                "*",
+                "&",
+                "->",
+                "."
+            ],
+            "answer": 0
+        },
+        {
+            "id": 35,
+            "topicId": 7,
+            "topic": "Pointers",
+            "question": "What is a dangling pointer?",
+            "options": [
+                "Pointer pointing to valid memory",
+                "Pointer pointing to freed memory",
+                "Null pointer",
+                "None"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "topicId": 8,
+            "topic": "Strings",
+            "question": "Which header file is required for string functions?",
+            "options": [
+                "<string.h>",
+                "<strings.h>",
+                "<stdio.h>",
+                "<stdlib.h>"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 37,
+            "topicId": 8,
+            "topic": "Strings",
+            "question": "Which function is used to copy one string to another?",
+            "options": [
+                "strcpy()",
+                "copy()",
+                "strcopy()",
+                "strdup()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 38,
+            "topicId": 8,
+            "topic": "Strings",
+            "question": "Which function is used to compare two strings?",
+            "options": [
+                "strcmp()",
+                "strcomp()",
+                "compare()",
+                "cmp()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 39,
+            "topicId": 8,
+            "topic": "Strings",
+            "question": "Which function is used to concatenate strings?",
+            "options": [
+                "strcat()",
+                "append()",
+                "stradd()",
+                "strmerge()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 40,
+            "topicId": 8,
+            "topic": "Strings",
+            "question": "Which character denotes the end of a string in C?",
+            "options": [
+                "\\0",
+                "NULL",
+                "EOF",
+                "END"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 41,
+            "topicId": 9,
+            "topic": "Storage Classes",
+            "question": "Which storage class is the default in C?",
+            "options": [
+                "auto",
+                "static",
+                "register",
+                "extern"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 42,
+            "topicId": 9,
+            "topic": "Storage Classes",
+            "question": "Which storage class keeps a variable value between function calls?",
+            "options": [
+                "auto",
+                "static",
+                "register",
+                "extern"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "topicId": 9,
+            "topic": "Storage Classes",
+            "question": "Which storage class defines a global variable?",
+            "options": [
+                "auto",
+                "extern",
+                "register",
+                "static"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "topicId": 9,
+            "topic": "Storage Classes",
+            "question": "Which storage class suggests storing a variable in CPU register?",
+            "options": [
+                "register",
+                "auto",
+                "static",
+                "extern"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 45,
+            "topicId": 9,
+            "topic": "Storage Classes",
+            "question": "Which storage class is used for variables with file scope?",
+            "options": [
+                "auto",
+                "static",
+                "extern",
+                "register"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 46,
+            "topicId": 10,
+            "topic": "Preprocessor",
+            "question": "Which symbol is used for macros in C?",
+            "options": [
+                "$",
+                "#",
+                "@",
+                "&"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "topicId": 10,
+            "topic": "Preprocessor",
+            "question": "Which directive is used to include header files?",
+            "options": [
+                "#define",
+                "#include",
+                "#import",
+                "#header"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "topicId": 10,
+            "topic": "Preprocessor",
+            "question": "Which directive is used to define constants?",
+            "options": [
+                "#define",
+                "#const",
+                "#value",
+                "#macro"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 49,
+            "topicId": 10,
+            "topic": "Preprocessor",
+            "question": "Which preprocessor directive is used for conditional compilation?",
+            "options": [
+                "#if",
+                "#endif",
+                "#ifdef",
+                "All of these"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 50,
+            "topicId": 10,
+            "topic": "Preprocessor",
+            "question": "Which function-like macro is used to get the current line number?",
+            "options": [
+                "__LINE__",
+                "__FILE__",
+                "__DATE__",
+                "__TIME__"
+            ],
+            "answer": 0
+        }
+    ]
 }

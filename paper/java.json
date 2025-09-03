@@ -1,3 +1,654 @@
 {
-    "paper": []
+    "paper": [
+        {
+            "id": 1,
+            "topicId": 1,
+            "topic": "Java Basics",
+            "question": "Who invented Java Programming?",
+            "options": [
+                "Guido van Rossum",
+                "James Gosling",
+                "Dennis Ritchie",
+                "Bjarne Stroustrup"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "topicId": 1,
+            "topic": "Java Basics",
+            "question": "Which of these is not a Java feature?",
+            "options": [
+                "Object-oriented",
+                "Portable",
+                "Dynamic",
+                "Pointer Arithmetic"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 3,
+            "topicId": 1,
+            "topic": "Java Basics",
+            "question": "What is the extension of Java code files?",
+            "options": [
+                ".js",
+                ".txt",
+                ".class",
+                ".java"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 4,
+            "topicId": 1,
+            "topic": "Java Basics",
+            "question": "Which data type is used to create a variable that should store text?",
+            "options": [
+                "String",
+                "string",
+                "Txt",
+                "Char"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 5,
+            "topicId": 1,
+            "topic": "Java Basics",
+            "question": "Which of these is not a keyword in Java?",
+            "options": [
+                "static",
+                "Boolean",
+                "void",
+                "private"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "topicId": 2,
+            "topic": "Operators",
+            "question": "Which operator is used to allocate memory in Java?",
+            "options": [
+                "malloc",
+                "new",
+                "alloc",
+                "create"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "topicId": 2,
+            "topic": "Operators",
+            "question": "Which operator is used for method invocation in Java?",
+            "options": [
+                ".",
+                "->",
+                "::",
+                "#"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 8,
+            "topicId": 2,
+            "topic": "Operators",
+            "question": "Which operator is used to compare two values in Java?",
+            "options": [
+                "=",
+                "==",
+                "===",
+                "!="
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "topicId": 2,
+            "topic": "Operators",
+            "question": "Which operator is used for concatenation of strings in Java?",
+            "options": [
+                "+",
+                "&",
+                ".",
+                ","
+            ],
+            "answer": 0
+        },
+        {
+            "id": 10,
+            "topicId": 2,
+            "topic": "Operators",
+            "question": "Which operator is used to access members of a class using objects?",
+            "options": [
+                ".",
+                "->",
+                "::",
+                ":"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 11,
+            "topicId": 3,
+            "topic": "Control Statements",
+            "question": "Which keyword is used to exit from a loop in Java?",
+            "options": [
+                "stop",
+                "exit",
+                "break",
+                "quit"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 12,
+            "topicId": 3,
+            "topic": "Control Statements",
+            "question": "Which loop is guaranteed to execute at least once?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "foreach"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 13,
+            "topicId": 3,
+            "topic": "Control Statements",
+            "question": "Which keyword is used to skip the current iteration of a loop?",
+            "options": [
+                "skip",
+                "continue",
+                "break",
+                "next"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "topicId": 3,
+            "topic": "Control Statements",
+            "question": "Which statement is used to select one option among many in Java?",
+            "options": [
+                "if",
+                "switch",
+                "for",
+                "while"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "topicId": 3,
+            "topic": "Control Statements",
+            "question": "What is the default value of the boolean data type in Java?",
+            "options": [
+                "true",
+                "false",
+                "0",
+                "null"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "topicId": 4,
+            "topic": "OOP",
+            "question": "Which concept of OOP is achieved by function overloading?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 17,
+            "topicId": 4,
+            "topic": "OOP",
+            "question": "Which of the following is not a pillar of OOP?",
+            "options": [
+                "Encapsulation",
+                "Polymorphism",
+                "Compilation",
+                "Inheritance"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 18,
+            "topicId": 4,
+            "topic": "OOP",
+            "question": "Which keyword is used to inherit a class in Java?",
+            "options": [
+                "this",
+                "super",
+                "extends",
+                "implements"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 19,
+            "topicId": 4,
+            "topic": "OOP",
+            "question": "Which keyword is used to inherit an interface in Java?",
+            "options": [
+                "extends",
+                "super",
+                "interface",
+                "implements"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 20,
+            "topicId": 4,
+            "topic": "OOP",
+            "question": "Which OOP concept hides internal details and shows only functionality?",
+            "options": [
+                "Encapsulation",
+                "Polymorphism",
+                "Abstraction",
+                "Inheritance"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 21,
+            "topicId": 5,
+            "topic": "Arrays",
+            "question": "What is the index of the first element in an array?",
+            "options": [
+                "-1",
+                "0",
+                "1",
+                "Depends on JVM"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "topicId": 5,
+            "topic": "Arrays",
+            "question": "What happens if you try to access an array element with an out-of-range index?",
+            "options": [
+                "Returns null",
+                "Returns 0",
+                "ArrayIndexOutOfBoundsException",
+                "Compile error"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 23,
+            "topicId": 5,
+            "topic": "Arrays",
+            "question": "Which of these can be used to determine the length of an array?",
+            "options": [
+                "array.length",
+                "array.size()",
+                "array.length()",
+                "array.count"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 24,
+            "topicId": 5,
+            "topic": "Arrays",
+            "question": "Which of the following is true about arrays in Java?",
+            "options": [
+                "Arrays can change size dynamically",
+                "Arrays are objects",
+                "Arrays can store only primitives",
+                "Arrays are not index-based"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "topicId": 5,
+            "topic": "Arrays",
+            "question": "What is the default value of elements in an int array?",
+            "options": [
+                "null",
+                "0",
+                "false",
+                "undefined"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "topicId": 6,
+            "topic": "Strings",
+            "question": "Which class is used to create immutable strings in Java?",
+            "options": [
+                "String",
+                "StringBuilder",
+                "StringBuffer",
+                "CharSequence"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 27,
+            "topicId": 6,
+            "topic": "Strings",
+            "question": "Which class is used to create mutable strings in Java?",
+            "options": [
+                "String",
+                "StringBuilder",
+                "StringBuffer",
+                "Char"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "topicId": 6,
+            "topic": "Strings",
+            "question": "Which method is used to find the length of a string?",
+            "options": [
+                "length",
+                "size",
+                "getSize",
+                "len"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 29,
+            "topicId": 6,
+            "topic": "Strings",
+            "question": "Which method is used to compare two strings in Java?",
+            "options": [
+                "equals()",
+                "==",
+                "compare()",
+                "matches()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 30,
+            "topicId": 6,
+            "topic": "Strings",
+            "question": "Which operator is used to concatenate strings?",
+            "options": [
+                "+",
+                "&",
+                ".",
+                ","
+            ],
+            "answer": 0
+        },
+        {
+            "id": 31,
+            "topicId": 7,
+            "topic": "Exceptions",
+            "question": "Which keyword is used to handle exceptions in Java?",
+            "options": [
+                "try",
+                "catch",
+                "finally",
+                "throw"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "topicId": 7,
+            "topic": "Exceptions",
+            "question": "Which keyword is used to throw an exception explicitly?",
+            "options": [
+                "throw",
+                "throws",
+                "raise",
+                "error"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 33,
+            "topicId": 7,
+            "topic": "Exceptions",
+            "question": "Which block is always executed whether an exception is handled or not?",
+            "options": [
+                "try",
+                "catch",
+                "finally",
+                "throw"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "topicId": 7,
+            "topic": "Exceptions",
+            "question": "Which exception is thrown when dividing by zero in Java?",
+            "options": [
+                "ArithmeticException",
+                "NullPointerException",
+                "NumberFormatException",
+                "IOException"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 35,
+            "topicId": 7,
+            "topic": "Exceptions",
+            "question": "Which of the following is a checked exception?",
+            "options": [
+                "NullPointerException",
+                "IOException",
+                "ArithmeticException",
+                "ArrayIndexOutOfBoundsException"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "topicId": 8,
+            "topic": "Multithreading",
+            "question": "Which method is used to start a thread in Java?",
+            "options": [
+                "run()",
+                "execute()",
+                "start()",
+                "init()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 37,
+            "topicId": 8,
+            "topic": "Multithreading",
+            "question": "Which interface must be implemented to create a thread in Java?",
+            "options": [
+                "Runnable",
+                "Threadable",
+                "Callable",
+                "Executor"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 38,
+            "topicId": 8,
+            "topic": "Multithreading",
+            "question": "Which method is used to pause a thread for a specified time?",
+            "options": [
+                "stop()",
+                "sleep()",
+                "wait()",
+                "pause()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "topicId": 8,
+            "topic": "Multithreading",
+            "question": "Which method is used to wait for a thread to finish execution?",
+            "options": [
+                "sleep()",
+                "wait()",
+                "join()",
+                "stop()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 40,
+            "topicId": 8,
+            "topic": "Multithreading",
+            "question": "Which method is called when a thread begins execution?",
+            "options": [
+                "main()",
+                "start()",
+                "init()",
+                "run()"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 41,
+            "topicId": 9,
+            "topic": "Collections",
+            "question": "Which interface does java.util.HashMap implement?",
+            "options": [
+                "List",
+                "Map",
+                "Set",
+                "Collection"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "topicId": 9,
+            "topic": "Collections",
+            "question": "Which collection class allows duplicates?",
+            "options": [
+                "HashSet",
+                "TreeSet",
+                "ArrayList",
+                "HashMap"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 43,
+            "topicId": 9,
+            "topic": "Collections",
+            "question": "Which collection class maintains insertion order?",
+            "options": [
+                "HashSet",
+                "TreeSet",
+                "LinkedHashSet",
+                "PriorityQueue"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 44,
+            "topicId": 9,
+            "topic": "Collections",
+            "question": "Which class is synchronized by default?",
+            "options": [
+                "ArrayList",
+                "HashMap",
+                "Hashtable",
+                "HashSet"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 45,
+            "topicId": 9,
+            "topic": "Collections",
+            "question": "Which interface is implemented by ArrayList?",
+            "options": [
+                "List",
+                "Map",
+                "Set",
+                "Queue"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 46,
+            "topicId": 10,
+            "topic": "JVM",
+            "question": "Which part of JVM is responsible for loading class files?",
+            "options": [
+                "ClassLoader",
+                "Interpreter",
+                "JIT Compiler",
+                "Garbage Collector"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 47,
+            "topicId": 10,
+            "topic": "JVM",
+            "question": "Which part of JVM is responsible for memory management?",
+            "options": [
+                "ClassLoader",
+                "Garbage Collector",
+                "JIT Compiler",
+                "Interpreter"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "topicId": 10,
+            "topic": "JVM",
+            "question": "What does JIT compiler stand for?",
+            "options": [
+                "Java Internal Translator",
+                "Just In Time Compiler",
+                "Java Interface Translator",
+                "Joint Integrated Translator"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "topicId": 10,
+            "topic": "JVM",
+            "question": "Which memory area is used to store objects in Java?",
+            "options": [
+                "Stack",
+                "Heap",
+                "Register",
+                "Method Area"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "topicId": 10,
+            "topic": "JVM",
+            "question": "Which memory area stores class-level data?",
+            "options": [
+                "Heap",
+                "Stack",
+                "Method Area",
+                "Registers"
+            ],
+            "answer": 2
+        }
+    ]
 }
