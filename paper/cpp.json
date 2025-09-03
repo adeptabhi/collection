@@ -1,132 +1,134 @@
-[
-    {
-        "id": 1,
-        "topicId": 1,
-        "topic": "Introduction",
-        "question": "Which of the following is the correct extension of a C++ source file?",
-        "options": [
-            ".c",
-            ".cpp",
-            ".class",
-            ".cs"
-        ],
-        "answer": 1
-    },
-    {
-        "id": 2,
-        "topicId": 1,
-        "topic": "Introduction",
-        "question": "Who developed the C++ programming language?",
-        "options": [
-            "Dennis Ritchie",
-            "James Gosling",
-            "Bjarne Stroustrup",
-            "Guido van Rossum"
-        ],
-        "answer": 2
-    },
-    {
-        "id": 3,
-        "topicId": 1,
-        "topic": "Introduction",
-        "question": "C++ is a ______ programming language.",
-        "options": [
-            "Procedural",
-            "Object-Oriented",
-            "Markup",
-            "Functional only"
-        ],
-        "answer": 1
-    },
-    {
-        "id": 4,
-        "topicId": 1,
-        "topic": "Introduction",
-        "question": "Which of the following is not a feature of C++?",
-        "options": [
-            "Encapsulation",
-            "Inheritance",
-            "Garbage Collection",
-            "Polymorphism"
-        ],
-        "answer": 2
-    },
-    {
-        "id": 5,
-        "topicId": 1,
-        "topic": "Introduction",
-        "question": "Which of the following is a correct comment in C++?",
-        "options": [
-            "# Comment",
-            "// Comment",
-            "/* Comment */",
-            "Both B and C"
-        ],
-        "answer": 3
-    },
-    {
-        "id": 6,
-        "topicId": 2,
-        "topic": "C++ Basics",
-        "question": "Which operator is used for input in C++?",
-        "options": [
-            "<<",
-            ">>",
-            "::",
-            "**"
-        ],
-        "answer": 1
-    },
-    {
-        "id": 7,
-        "topicId": 2,
-        "topic": "C++ Basics",
-        "question": "Which header file is required for cout and cin?",
-        "options": [
-            "iostream",
-            "stdio.h",
-            "conio.h",
-            "stdlib.h"
-        ],
-        "answer": 0
-    },
-    {
-        "id": 8,
-        "topicId": 2,
-        "topic": "C++ Basics",
-        "question": "What will be the output of: int a = 5; cout << a++;",
-        "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-        ],
-        "answer": 1
-    },
-    {
-        "id": 9,
-        "topicId": 2,
-        "topic": "C++ Basics",
-        "question": "What will be the output of: int a=5; cout << ++a;",
-        "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-        ],
-        "answer": 2
-    },
-    {
-        "id": 10,
-        "topicId": 2,
-        "topic": "C++ Basics",
-        "question": "Which operator is used for scope resolution in C++?",
-        "options": [
-            "::",
-            "->",
-            ".",
-            ":"
-        ],
-        "answer": 0
-    }
-]
+{
+    "paper": [
+        {
+            "id": 1,
+            "topicId": 1,
+            "topic": "Introduction",
+            "question": "Which of the following is the correct extension of a C++ source file?",
+            "options": [
+                ".c",
+                ".cpp",
+                ".class",
+                ".cs"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "topicId": 1,
+            "topic": "Introduction",
+            "question": "Who developed the C++ programming language?",
+            "options": [
+                "Dennis Ritchie",
+                "James Gosling",
+                "Bjarne Stroustrup",
+                "Guido van Rossum"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 3,
+            "topicId": 1,
+            "topic": "Introduction",
+            "question": "C++ is a ______ programming language.",
+            "options": [
+                "Procedural",
+                "Object-Oriented",
+                "Markup",
+                "Functional only"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "topicId": 1,
+            "topic": "Introduction",
+            "question": "Which of the following is not a feature of C++?",
+            "options": [
+                "Encapsulation",
+                "Inheritance",
+                "Garbage Collection",
+                "Polymorphism"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 5,
+            "topicId": 1,
+            "topic": "Introduction",
+            "question": "Which of the following is a correct comment in C++?",
+            "options": [
+                "# Comment",
+                "// Comment",
+                "/* Comment */",
+                "Both B and C"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 6,
+            "topicId": 2,
+            "topic": "C++ Basics",
+            "question": "Which operator is used for input in C++?",
+            "options": [
+                "<<",
+                ">>",
+                "::",
+                "**"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "topicId": 2,
+            "topic": "C++ Basics",
+            "question": "Which header file is required for cout and cin?",
+            "options": [
+                "iostream",
+                "stdio.h",
+                "conio.h",
+                "stdlib.h"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 8,
+            "topicId": 2,
+            "topic": "C++ Basics",
+            "question": "What will be the output of: int a = 5; cout << a++;",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "Error"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "topicId": 2,
+            "topic": "C++ Basics",
+            "question": "What will be the output of: int a=5; cout << ++a;",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "Error"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 10,
+            "topicId": 2,
+            "topic": "C++ Basics",
+            "question": "Which operator is used for scope resolution in C++?",
+            "options": [
+                "::",
+                "->",
+                ".",
+                ":"
+            ],
+            "answer": 0
+        }
+    ]
+}
