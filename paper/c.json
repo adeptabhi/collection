@@ -649,6 +649,409 @@
                 "__TIME__"
             ],
             "answer": 0
-        }
-    ]
+        },
+
+  {
+    "id": 51,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "What will be output?\n\n#include <stdio.h>\nint main() {\n   int a=5;\n   printf(\"%d\", a++ + ++a);\n   return 0;\n}",
+    "options": ["11", "12", "Undefined Behavior", "10"],
+    "answer": 2
+  },
+  {
+    "id": 52,
+    "topicId": 4,
+    "topic": "Conditional",
+    "question": "Output?\n\n#include <stdio.h>\nint main() {\n   int x=0;\n   if(x=5)\n      printf(\"True\");\n   else\n      printf(\"False\");\n   return 0;\n}",
+    "options": ["True", "False", "Error", "No Output"],
+    "answer": 0
+  },
+  {
+    "id": 53,
+    "topicId": 4,
+    "topic": "Conditional",
+    "question": "What will be printed?\n\n#include <stdio.h>\nint main() {\n   int a=10, b=20;\n   (a>b)? printf(\"A\"): printf(\"B\");\n   return 0;\n}",
+    "options": ["A", "B", "10", "20"],
+    "answer": 1
+  },
+  {
+    "id": 54,
+    "topicId": 2,
+    "topic": "Loops",
+    "question": "Output?\n\n#include <stdio.h>\nint main() {\n   int i;\n   for(i=0;i<3;i++) {\n      printf(\"%d\", i);\n   }\n   return 0;\n}",
+    "options": ["012", "123", "0 1 2", "Compilation Error"],
+    "answer": 0
+  },
+  {
+    "id": 55,
+    "topicId": 2,
+    "topic": "Loops",
+    "question": "What happens?\n\n#include <stdio.h>\nint main() {\n   int i=0;\n   do {\n      printf(\"Hello\");\n   } while(i!=0);\n   return 0;\n}",
+    "options": ["No Output", "Infinite Loop", "Hello", "Error"],
+    "answer": 2
+  },
+  {
+    "id": 56,
+    "topicId": 5,
+    "topic": "Functions",
+    "question": "Output?\n\n#include <stdio.h>\nvoid fun() {\n   static int x=0;\n   x++;\n   printf(\"%d\", x);\n}\nint main() {\n   fun(); fun(); fun();\n   return 0;\n}",
+    "options": ["123", "111", "000", "Error"],
+    "answer": 0
+  },
+  {
+    "id": 57,
+    "topicId": 5,
+    "topic": "Functions",
+    "question": "What is printed?\n\n#include <stdio.h>\nint add(int a,int b){ return a+b; }\nint main(){\n   printf(\"%d\", add(5,10));\n   return 0;\n}",
+    "options": ["15", "510", "Error", "Garbage"],
+    "answer": 0
+  },
+  {
+    "id": 58,
+    "topicId": 6,
+    "topic": "Pointers",
+    "question": "Output?\n\n#include <stdio.h>\nint main() {\n   int a=10;\n   int *p=&a;\n   printf(\"%d\", *p);\n   return 0;\n}",
+    "options": ["Address of a", "10", "Garbage", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 59,
+    "topicId": 6,
+    "topic": "Pointers",
+    "question": "What will be output?\n\n#include <stdio.h>\nint main(){\n   char *s = \"Hello\";\n   printf(\"%c\", *s+1);\n   return 0;\n}",
+    "options": ["H", "I", "e", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 60,
+    "topicId": 7,
+    "topic": "Arrays",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int arr[3]={1,2,3};\n   printf(\"%d\", arr[1]);\n   return 0;\n}",
+    "options": ["1", "2", "3", "Garbage"],
+    "answer": 1
+  },
+  {
+    "id": 61,
+    "topicId": 7,
+    "topic": "Arrays",
+    "question": "What will print?\n\n#include <stdio.h>\nint main(){\n   int arr[5]={10,20,30,40,50};\n   printf(\"%d\", *(arr+3));\n   return 0;\n}",
+    "options": ["20", "30", "40", "50"],
+    "answer": 2
+  },
+  {
+    "id": 62,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int a=4;\n   printf(\"%d\", a<<1);\n   return 0;\n}",
+    "options": ["4", "8", "2", "1"],
+    "answer": 1
+  },
+  {
+    "id": 63,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "What will be the output?\n\n#include <stdio.h>\nint main(){\n   int a=7;\n   printf(\"%d\", a & 3);\n   return 0;\n}",
+    "options": ["1", "2", "3", "7"],
+    "answer": 2
+  },
+  {
+    "id": 64,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "Output?\n\n#include <stdio.h>\n#include <string.h>\nint main(){\n   char s[]=\"Hello\";\n   printf(\"%lu\", strlen(s));\n   return 0;\n}",
+    "options": ["4", "5", "6", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 65,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   char str[]={'a','b','c','\\0'};\n   printf(\"%s\", str);\n   return 0;\n}",
+    "options": ["abc", "a", "ab", "Garbage"],
+    "answer": 0
+  },
+  {
+    "id": 66,
+    "topicId": 2,
+    "topic": "Loops",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int i;\n   for(i=1;i<=5;i++){\n      if(i==3) continue;\n      printf(\"%d\", i);\n   }\n   return 0;\n}",
+    "options": ["12345", "1245", "1345", "125"],
+    "answer": 1
+  },
+  {
+    "id": 67,
+    "topicId": 2,
+    "topic": "Loops",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   int i;\n   for(i=1;i<5;i++){\n      if(i==3) break;\n      printf(\"%d\", i);\n   }\n   return 0;\n}",
+    "options": ["1", "12", "123", "1234"],
+    "answer": 1
+  },
+  {
+    "id": 68,
+    "topicId": 5,
+    "topic": "Functions",
+    "question": "Output?\n\n#include <stdio.h>\nint fun(int n){\n   if(n==0) return 0;\n   return n+fun(n-1);\n}\nint main(){\n   printf(\"%d\", fun(3));\n   return 0;\n}",
+    "options": ["3", "6", "10", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 69,
+    "topicId": 5,
+    "topic": "Functions",
+    "question": "What prints?\n\n#include <stdio.h>\nint fun(int a,int b=5){ return a+b; }\nint main(){\n   printf(\"%d\", fun(2));\n   return 0;\n}",
+    "options": ["7", "2", "Error", "5"],
+    "answer": 2
+  },
+  {
+    "id": 70,
+    "topicId": 6,
+    "topic": "Pointers",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int a=10, *p=&a;\n   *p=20;\n   printf(\"%d\", a);\n   return 0;\n}",
+    "options": ["10", "20", "Garbage", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 71,
+    "topicId": 6,
+    "topic": "Pointers",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int arr[3]={1,2,3};\n   int *p=arr;\n   printf(\"%d\", *(p+2));\n   return 0;\n}",
+    "options": ["1", "2", "3", "Garbage"],
+    "answer": 2
+  },
+  {
+    "id": 72,
+    "topicId": 6,
+    "topic": "Pointers",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   int *p;\n   printf(\"%d\", sizeof(p));\n   return 0;\n}",
+    "options": ["2", "4", "8", "Depends on system"],
+    "answer": 3
+  },
+  {
+    "id": 73,
+    "topicId": 7,
+    "topic": "Arrays",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int a[2][2]={{1,2},{3,4}};\n   printf(\"%d\", a[1][0]);\n   return 0;\n}",
+    "options": ["1", "2", "3", "4"],
+    "answer": 2
+  },
+  {
+    "id": 74,
+    "topicId": 7,
+    "topic": "Arrays",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int a[5]={0};\n   printf(\"%d\", a[2]);\n   return 0;\n}",
+    "options": ["0", "Garbage", "2", "Error"],
+    "answer": 0
+  },
+  {
+    "id": 75,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   char s[10]=\"Hi\";\n   printf(\"%s\", s);\n   return 0;\n}",
+    "options": ["H", "Hi", "i", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 76,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   char s[]=\"Hello\";\n   printf(\"%c\", s[1]);\n   return 0;\n}",
+    "options": ["H", "e", "l", "o"],
+    "answer": 1
+  },
+  {
+    "id": 77,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "Output?\n\n#include <stdio.h>\n#include <string.h>\nint main(){\n   char s1[10]=\"Hi\", s2[10]=\"Hi\";\n   if(strcmp(s1,s2)==0)\n      printf(\"Equal\");\n   else\n      printf(\"Not Equal\");\n   return 0;\n}",
+    "options": ["Equal", "Not Equal", "Error", "Garbage"],
+    "answer": 0
+  },
+  {
+    "id": 78,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "What prints?\n\n#include <stdio.h>\n#include <string.h>\nint main(){\n   char s[20]=\"Hello\";\n   strcat(s,\"World\");\n   printf(\"%s\", s);\n   return 0;\n}",
+    "options": ["Hello", "World", "HelloWorld", "Error"],
+    "answer": 2
+  },
+  {
+    "id": 79,
+    "topicId": 9,
+    "topic": "Storage Classes",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   register int x=5;\n   printf(\"%d\", x);\n   return 0;\n}",
+    "options": ["5", "Error", "Garbage", "Depends"],
+    "answer": 0
+  },
+  {
+    "id": 80,
+    "topicId": 9,
+    "topic": "Storage Classes",
+    "question": "What prints?\n\n#include <stdio.h>\nint x=10;\nint main(){\n   int x=20;\n   printf(\"%d\", x);\n   return 0;\n}",
+    "options": ["10", "20", "Error", "Garbage"],
+    "answer": 1
+  },
+  {
+    "id": 81,
+    "topicId": 9,
+    "topic": "Storage Classes",
+    "question": "Output?\n\n#include <stdio.h>\nint x;\nint main(){\n   printf(\"%d\", x);\n   return 0;\n}",
+    "options": ["0", "Garbage", "Error", "Depends"],
+    "answer": 0
+  },
+  {
+    "id": 82,
+    "topicId": 4,
+    "topic": "Conditional",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   int x=1;\n   if(x--)\n      printf(\"Yes\");\n   else\n      printf(\"No\");\n   return 0;\n}",
+    "options": ["Yes", "No", "Error", "Garbage"],
+    "answer": 0
+  },
+  {
+    "id": 83,
+    "topicId": 2,
+    "topic": "Loops",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int i=5;\n   while(i-- > 0)\n      printf(\"%d\", i);\n   return 0;\n}",
+    "options": ["43210", "54321", "4321", "Error"],
+    "answer": 0
+  },
+  {
+    "id": 84,
+    "topicId": 2,
+    "topic": "Loops",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   for(int i=0;i<3;i++)\n      for(int j=0;j<2;j++)\n         printf(\"%d%d \", i,j);\n   return 0;\n}",
+    "options": ["00 01 10 11 20 21", "01 02 11 12 21 22", "00 01 02", "Error"],
+    "answer": 0
+  },
+  {
+    "id": 85,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int x=5;\n   printf(\"%d\", !x);\n   return 0;\n}",
+    "options": ["0", "1", "5", "Error"],
+    "answer": 0
+  },
+  {
+    "id": 86,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   int a=2, b=3;\n   printf(\"%d\", a==b);\n   return 0;\n}",
+    "options": ["0", "1", "2", "3"],
+    "answer": 0
+  },
+  {
+    "id": 87,
+    "topicId": 5,
+    "topic": "Functions",
+    "question": "Output?\n\n#include <stdio.h>\nint f(int n){\n   if(n<=1) return 1;\n   return n*f(n-1);\n}\nint main(){\n   printf(\"%d\", f(4));\n   return 0;\n}",
+    "options": ["4", "24", "120", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 88,
+    "topicId": 5,
+    "topic": "Functions",
+    "question": "What prints?\n\n#include <stdio.h>\nint f(){ static int x=0; return ++x; }\nint main(){\n   printf(\"%d %d\", f(), f());\n   return 0;\n}",
+    "options": ["1 1", "1 2", "2 2", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 89,
+    "topicId": 7,
+    "topic": "Arrays",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int arr[]={1,2,3,4};\n   printf(\"%d\", sizeof(arr)/sizeof(arr[0]));\n   return 0;\n}",
+    "options": ["3", "4", "8", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 90,
+    "topicId": 7,
+    "topic": "Arrays",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   char arr[]={'a','b','c'};\n   printf(\"%lu\", sizeof(arr));\n   return 0;\n}",
+    "options": ["2", "3", "4", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 91,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   char s[]=\"ABC\";\n   printf(\"%c\", *s);\n   return 0;\n}",
+    "options": ["A", "B", "C", "Error"],
+    "answer": 0
+  },
+  {
+    "id": 92,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   char s[]=\"ABC\";\n   printf(\"%c\", *(s+2));\n   return 0;\n}",
+    "options": ["A", "B", "C", "Error"],
+    "answer": 2
+  },
+  {
+    "id": 93,
+    "topicId": 8,
+    "topic": "Strings",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   char *s=\"Hello\";\n   printf(\"%s\", s+2);\n   return 0;\n}",
+    "options": ["Hello", "llo", "lo", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 94,
+    "topicId": 9,
+    "topic": "Storage Classes",
+    "question": "What prints?\n\n#include <stdio.h>\nvoid fun(){ static int x; x++; printf(\"%d\",x);} \nint main(){ fun(); fun(); }\n",
+    "options": ["11", "12", "22", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 95,
+    "topicId": 9,
+    "topic": "Storage Classes",
+    "question": "Output?\n\n#include <stdio.h>\nint a=5;\nvoid fun(){ printf(\"%d\",a); }\nint main(){ fun(); }\n",
+    "options": ["5", "Error", "Garbage", "Depends"],
+    "answer": 0
+  },
+  {
+    "id": 96,
+    "topicId": 9,
+    "topic": "Storage Classes",
+    "question": "What prints?\n\n#include <stdio.h>\nvoid fun(){ auto int x=10; printf(\"%d\",x);} \nint main(){ fun(); }\n",
+    "options": ["10", "Error", "Garbage", "Depends"],
+    "answer": 0
+  },
+  {
+    "id": 97,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int a=10;\n   a+=5;\n   printf(\"%d\",a);\n   return 0;\n}",
+    "options": ["5", "10", "15", "Error"],
+    "answer": 2
+  },
+  {
+    "id": 98,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   int a=5,b=2;\n   printf(\"%d\",a%b);\n   return 0;\n}",
+    "options": ["2", "1", "0", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 99,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "Output?\n\n#include <stdio.h>\nint main(){\n   int a=5,b=10;\n   printf(\"%d\",a>b?a:b);\n   return 0;\n}",
+    "options": ["5", "10", "15", "Error"],
+    "answer": 1
+  },
+  {
+    "id": 100,
+    "topicId": 3,
+    "topic": "Operators",
+    "question": "What prints?\n\n#include <stdio.h>\nint main(){\n   int x=1;\n   printf(\"%d\",x<<2);\n   return 0;\n}",
+    "options": ["2", "4", "8", "1"],
+    "answer": 1
+  }
+]
+
+    
 }
