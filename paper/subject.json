@@ -1,0 +1,20 @@
+{
+    "subject": [
+        {
+            "name": "C",
+            "file": "c.json"
+        },
+        {
+            "name": "DSA",
+            "file": "dsa.json"
+        },
+        {
+            "name": "Java",
+            "file": "java.json"
+        },
+        {
+            "name": "C++",
+            "file": "cpp.json"
+        }
+    ]
+}
